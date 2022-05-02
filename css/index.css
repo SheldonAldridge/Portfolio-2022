@@ -30,8 +30,15 @@ body {
   color: var(--white);
 }
 
+.agumon{
+  width:32px;
+  height:32px;
+  background: red;
+}
+
 .nav-item ul {
  text-align: center;
+
 }
 
 .nav-item li:hover {
@@ -81,7 +88,7 @@ body {
 }
 
 .count-down{
-    font-size: 86px;
+    font-size: 65px;
     text-align: center;
     padding-top: 13rem;
     color: var(--white);
