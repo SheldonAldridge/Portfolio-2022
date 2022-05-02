@@ -1,4 +1,4 @@
-let countDown = new Date("Sep 01, 2021 15:01:00").getTime()
+let countDown = new Date("Sep 01, 2022 15:01:00").getTime()
 
 
 let updateTimer = setInterval(function(){
