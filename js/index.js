@@ -110,23 +110,3 @@ getaboutme.addEventListener('mouseout', function handleMouseOut(){
       displayAgumonJump.style.display = "none";
     }
 })
-
- /***************************
- * Contact tab hover effect *              
- ****************************/
-
-  let getcontact = document.querySelector(".contact")
-
-  let displayAgumonRun = document.querySelector(".agumon-running")
-
-  getcontact.addEventListener('mouseover', function handleMouseOut(){
-      if(getcontact){
-        displayAgumonRun.style.display = "block";
-      }
-  })
-
-  getcontact.addEventListener('mouseout', function handleMouseOut(){
-    if(getcontact){
-        displayAgumonRun.style.display = "none";
-    }
-})
