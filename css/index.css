@@ -17,7 +17,7 @@ body {
   --pixel-size: 2;
 }
 
-.nav {
+.nav-item {
   background-color: var(--purple);
   height: 5vh;
   margin-top: -1rem;
@@ -36,7 +36,7 @@ body {
   width: calc(22px * var(--pixel-size));
   height: calc(32px * var(--pixel-size));
   overflow: hidden;
-  margin-left:41rem;
+  margin-left:49rem;
   display: none;
 }
 
@@ -51,7 +51,7 @@ body {
   width: calc(30px * var(--pixel-size));
   height: calc(50px * var(--pixel-size));
   overflow: hidden;
-  margin-left:54rem;
+  margin-left:63rem;
   margin-top: -45px;
   display: none;
 }
@@ -67,7 +67,7 @@ body {
   width: calc(25px * var(--pixel-size));
   height: calc(70px * var(--pixel-size));
   overflow: hidden;
-  margin-left: 72rem;
+  margin-left: 80rem;
   margin-top: -59px;
   display: none;
 }
@@ -83,7 +83,7 @@ body {
   width: calc(27.7px * var(--pixel-size));
   height: calc(50px * var(--pixel-size));
   overflow: hidden;
-  margin-left: 90rem;
+  margin-left: 98rem;
   margin-top: -70px;
   display: none;
 }
@@ -94,23 +94,31 @@ body {
   image-rendering: pixelated;
 }
 
-.agumon-running{
+
+.agumon-wargraymon{
   position: absolute;
-  width: calc(28px * var(--pixel-size));
-  height: calc(40px * var(--pixel-size));
+  width: calc(20px * var(--pixel-size));
+  height: calc(100px * var(--pixel-size));
   overflow: hidden;
-  margin-left: 103rem;
-  margin-top: -55px;
-  display: none;
+  left:30rem
 }
 
-.perform-run{
-  animation: movespritesheet 0.8s steps(7) infinite;
-  width: calc(250px * var(--pixel-size));
+.perform-digivovle{
+  animation: movespritesheet 1.5s steps(10) infinite;
+  width: calc(350px * var(--pixel-size));
   image-rendering: pixelated;
 }
 
 @keyframes movespritesheet {
+  from{
+    transform: translate3d(0px, 0, 0);
+  }
+  to{
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes movement {
   from{
     transform: translate3d(0px, 0, 0);
   }
@@ -155,18 +163,19 @@ body {
     position: absolute;
     width: 734px;
     height: auto;
-    margin-left: 50rem;
-    margin-top: -516px;
+    margin-left: 95rem;
+    margin-top: -576px;
     -webkit-filter: drop-shadow(5px 5px 30px rgb(0, 0, 0));
     filter:drop-shadow(5px 5px 10px rgb(0, 0, 0)); 
 }
 
 .projection
 {
+  position: absolute;
     background-color: var(--lighterBlue);
-    width:1370px;
-    height:600px;
-    margin-left: 1188px;
+    width:1360px;
+    height:1185px;
+    margin-left: 1200px;
     margin-top: -660px;
 }
 
@@ -191,4 +200,38 @@ body {
 .bts{
     width: 200px;
     height: 200px;
+}
+
+@media only screen and (max-width:2000px){
+  .agumon{
+    margin-left:29rem;
+  }
+
+  .agumon-spit-fire{
+    margin-left:42rem;
+  }
+
+  .agumon-powerball-fire{
+    margin-left:60rem;
+  }
+  .agumon-jumping{
+    margin-left:78rem;
+  }
+}
+
+@media only screen and (min-width:1500px){
+  .agumon{
+    margin-left:17rem;
+  }
+
+  .agumon-spit-fire{
+    margin-left:31rem;
+  }
+
+  .agumon-powerball-fire{
+    margin-left:45rem;
+  }
+  .agumon-jumping{
+    margin-left:63rem;
+  }
 }
