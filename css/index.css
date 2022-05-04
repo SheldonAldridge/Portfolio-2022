@@ -109,6 +109,7 @@ body {
   image-rendering: pixelated;
 }
 
+
 @keyframes movespritesheet {
   from{
     transform: translate3d(0px, 0, 0);
@@ -202,36 +203,8 @@ body {
     height: 200px;
 }
 
-@media only screen and (max-width:2000px){
-  .agumon{
-    margin-left:29rem;
-  }
-
-  .agumon-spit-fire{
-    margin-left:42rem;
-  }
-
-  .agumon-powerball-fire{
-    margin-left:60rem;
-  }
-  .agumon-jumping{
-    margin-left:78rem;
-  }
-}
-
-@media only screen and (min-width:1500px){
-  .agumon{
-    margin-left:17rem;
-  }
-
-  .agumon-spit-fire{
-    margin-left:31rem;
-  }
-
-  .agumon-powerball-fire{
-    margin-left:45rem;
-  }
-  .agumon-jumping{
-    margin-left:63rem;
-  }
+.contact-me
+{
+  background: red;
+  border-radius: 100%;
 }
