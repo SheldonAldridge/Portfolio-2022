@@ -93,3 +93,28 @@ getaboutme.addEventListener('mouseout', function handleMouseOut(){
       displayAgumonJump.style.display = "none";
     }
 })
+
+ /*******************
+ * contact me model *              
+ ********************/
+
+ let contactMe = document.querySelector(".contact-me")
+
+ let contactForm = document.querySelector(".contact-form")
+ contactMe.addEventListener('click', function modelappear(){
+      if(contactMe){
+        contactForm.style.display ="block";
+      }
+ })
+
+ /**************
+ * close model *              
+ ***************/
+
+  let close = document.querySelector(".close")
+
+  close.addEventListener('click', function closeModel(){
+      if(close){
+        contactForm.style.display = "none";
+      }
+  })
