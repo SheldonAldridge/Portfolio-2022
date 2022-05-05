@@ -36,7 +36,7 @@ body {
   width: calc(22px * var(--pixel-size));
   height: calc(32px * var(--pixel-size));
   overflow: hidden;
-  margin-left:49rem;
+  margin-left:56rem;
   display: none;
 }
 
@@ -51,7 +51,7 @@ body {
   width: calc(30px * var(--pixel-size));
   height: calc(50px * var(--pixel-size));
   overflow: hidden;
-  margin-left:63rem;
+  margin-left:70rem;
   margin-top: -45px;
   display: none;
 }
@@ -67,7 +67,7 @@ body {
   width: calc(25px * var(--pixel-size));
   height: calc(70px * var(--pixel-size));
   overflow: hidden;
-  margin-left: 80rem;
+  margin-left: 87rem;
   margin-top: -59px;
   display: none;
 }
@@ -83,7 +83,7 @@ body {
   width: calc(27.7px * var(--pixel-size));
   height: calc(50px * var(--pixel-size));
   overflow: hidden;
-  margin-left: 98rem;
+  margin-left: 105rem;
   margin-top: -70px;
   display: none;
 }
@@ -111,15 +111,6 @@ body {
 
 
 @keyframes movespritesheet {
-  from{
-    transform: translate3d(0px, 0, 0);
-  }
-  to{
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-
-@keyframes movement {
   from{
     transform: translate3d(0px, 0, 0);
   }
@@ -203,8 +194,60 @@ body {
     height: 200px;
 }
 
+.work{
+  position: absolute;
+}
+
 .contact-me
 {
-  background: red;
+  animation: float 2s linear infinite;
+  cursor: pointer;
+  background: var(--purple);
+  position: absolute;
   border-radius: 100%;
+  margin-left: 67rem;
+  z-index: 2;
+  margin-top: -28rem;
+  width: 15rem;
+  height: 15rem;
+  }
+
+.contact-me p{
+  font-size: 44px;
+  margin-top: 6rem;
+  margin-left: 5px;
+  color:white;
+}
+
+.contact-me:active{
+  transform:translateY(0.1em);
+}
+
+.exploding, .exploding:focus, .exploding:hover{
+  background: transparent;
+  color:transparent;
+}
+
+.exploding{
+  pointer-events: none;
+  position: relative;
+  will-change: transform;
+  -webkit-user-select: none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.particle{
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.particle--debris{
+  background-color: var(--purple);
+}
+
+.particle--fire{
+  border-radius: 50%;
 }
