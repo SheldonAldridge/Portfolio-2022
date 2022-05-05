@@ -118,3 +118,7 @@ getaboutme.addEventListener('mouseout', function handleMouseOut(){
         contactForm.style.display = "none";
       }
   })
+
+  if(window.performance){
+    contactForm.style.display = "none";
+  }
