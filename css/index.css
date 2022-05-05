@@ -223,31 +223,96 @@ body {
   transform:translateY(0.1em);
 }
 
-.exploding, .exploding:focus, .exploding:hover{
-  background: transparent;
-  color:transparent;
-}
 
-.exploding{
-  pointer-events: none;
-  position: relative;
-  will-change: transform;
-  -webkit-user-select: none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-}
-
-.particle{
+.contact-form{
   position: absolute;
-  top:0;
-  left:0;
-}
-
-.particle--debris{
   background-color: var(--purple);
+  width:20vw;
+  height: 55vh;
+  margin-left: 60rem;
+  margin-top: -40rem;
+  z-index:3;
+  border-radius: 1rem;
+  box-shadow: 0px 20px 30px 0px black;
+  
 }
 
-.particle--fire{
-  border-radius: 50%;
+.agumon-victory{
+  aspect-ratio: 0.77;
+  width: calc(50px * var(--pixel-size));
+  height: calc(100px * var(--pixel-size));
+  overflow: hidden;
+  margin-left: 15rem;
+  left: 2rem;
+}
+
+.perform-victory{
+  display: block;
+  animation: movespritesheet 3s steps(15) infinite;
+  width: calc(800px * var(--pixel-size));
+  image-rendering: pixelated;
+}
+
+.close{
+  margin-left: 29rem;
+  margin-top: 2rem;
+  border:none;
+  background:none;
+  color:var(--white);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+padding: 1rem;
+}
+
+#name, #companyName, #email{
+  margin-bottom: 1rem;
+  padding: 5px;
+  border-radius: 1rem;
+  font-size: 16px;
+}
+
+#name:focus, #companyName:focus,#email:focus{
+background-color: var(--lighterBlue);
+}
+
+#name::placeholder, #companyName::placeholder, 
+#email::placeholder{
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#textarea{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit{
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 20px;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  background: var(--lighterBlue);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.reset{
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 20px;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  background: var(--lighterBlue);
+  color: var(--white);
+  font-weight: bold;
 }
