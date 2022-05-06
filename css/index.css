@@ -228,7 +228,7 @@ body {
   position: absolute;
   background-color: var(--purple);
   width:20vw;
-  height: 58vh;
+  height: 45vh;
   margin-left: 60rem;
   margin-top: -40rem;
   z-index:3;
@@ -241,6 +241,12 @@ body {
   0% {transform:scale(0,0);opacity:0};
   50%{transform:scale(0.5,0.5);opacity:0.5};
   100%{transform:scale(1,1);;opacity:1};
+}
+
+.contact-form h1{
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .agumon-victory{
@@ -275,45 +281,12 @@ flex-direction: column;
 padding: 1rem;
 }
 
-#name, #companyName, #email{
-  margin-bottom: 1rem;
-  padding: 5px;
-  border-radius: 1rem;
-  font-size: 16px;
-}
-
-#name:focus, #companyName:focus,#email:focus{
-background-color: var(--lighterBlue);
-}
-
-#name::placeholder, #companyName::placeholder, 
-#email::placeholder{
-  padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#textarea{
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .submit{
+  width: 15rem;
+  padding: 1rem;
   margin-top: 1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  font-size: 20px;
-  border-radius: 1rem;
-  border: none;
-  cursor: pointer;
-  background: var(--lighterBlue);
-  color: var(--white);
-  font-weight: bold;
-}
-
-.reset{
-  margin-top: 1rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
   font-size: 20px;
   border-radius: 1rem;
   border: none;
