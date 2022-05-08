@@ -122,3 +122,10 @@ getaboutme.addEventListener('mouseout', function handleMouseOut(){
   if(window.performance){
     contactForm.style.display = "none";
   }
+
+ /***********************
+ * Change speech bUBBLE *              
+ ************************/
+
+ let speechbubble = document.querySelector(".speech-bubble");
+ 
