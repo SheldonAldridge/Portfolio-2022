@@ -163,7 +163,7 @@ body {
 
 .speech-bubble{
   width: 300px;
-  margin-left: 95rem;
+  margin-left: 94rem;
   margin-top: -24rem;
   background: var(--purple);
   padding: 20px;
@@ -173,6 +173,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   position:absolute;
   border-radius: 1rem;
+  animation: speech 2s 0.1s 1;
 }
 
 .speech-bubble p{
@@ -193,6 +194,11 @@ body {
   border-bottom: 16px solid var(--purple);
   right: -15px;
   top: 81px;
+}
+
+@keyframes speech{
+  0% {opacity: 0;}
+  100%{opacity: 1;}
 }
 
 .projection
