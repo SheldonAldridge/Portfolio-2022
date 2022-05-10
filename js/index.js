@@ -124,8 +124,22 @@ getaboutme.addEventListener('mouseout', function handleMouseOut(){
   }
 
  /***********************
- * Change speech bUBBLE *              
+ * Change speech bubble *              
  ************************/
+  let sentenceArray = [
+    "Fun fact about me! I love video games, I have been playing video games since I was 10 years old",
+    "Why I chose front end, because creating and building UI and websites is a passsion of mine",
+    "You should really look at the projects I built, you can get a good look at my skillsets",
+    "What I love about programming is that there is more than one way, which opens up possibilities to a solution",
+    ];
+  
 
- let speechbubble = document.querySelector(".speech-bubble");
+  let speechbubble = document.querySelector(".speech-bubble");
+  
+  setInterval(() =>{
+    const randomtext = Math.floor(Math.random() * sentenceArray.length);  
+    speechbubble.innerText = sentenceArray[randomtext]
+  }, 8000);
+
+
  
