@@ -4,84 +4,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../css/index.css">
-  <script src="../js/index.js" defer></script>
-  <title>Sheldon Aldridge's Portfolio</title>
+  <title>Sheldon's Digital Resume</title>
 </head>
 <body>
-  <Header>
-    <nav class = "navbar navbar-expand-lg navbar-light bg-light">
-      <div class = "nav-item">
-      <ul>
-        <div class = "agumon">
-          <img class = "agumon-standing" src="images/sprites/standing/standing-collection.png" alt="agumon sprite">
-        </div>
-        <li class = "home"><a href="#" target="_blank"></a>Home</li>
-        <div class = "agumon-spit-fire img-thumbnail">
-          <img class = "agumon-power img-thumbnail" src="images/sprites/standing/power-attack-collection.png" alt="agumon sprite">
-        </div>
-        <li class = "aboutme"><a href=".../pages/aboutme.html" target="_blank"></a>About Me</li>
-
-        <div class = "agumon-powerball-fire ">
-          <img class = "agumon-powerball-attack img-thumbnail" src="images/sprites/standing/powerball-attack-collection.png" alt="agumon sprite">
-        </div>
-        <li class = "experience"><a href="#"></a>Experience</li>
-
-        <div class = "agumon-jumping img-thumbnail">
-          <img class = "perform-jump img-thumbnail" src="images/sprites/standing/agumon-digivolved.png" alt="agumon sprite">
-        </div>
-        <li class = "work"><a href="#"></a>Work</li>
+  <header>
+    <nav class = "navbar navbar-expand-lg navbar-light bg-light nav">
+      <div class="container-fluid">
+        <div class = "navbar-brand">Sheldon Aldridge</div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id ="navbarNav">
+          <ul class = "navbar-nav">
+            <li class = "nav-item">
+              <a class ="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class = "nav-item">
+              <a class ="nav-link" href="#">About Me</a>
+            </li>
+            <li class = "nav-item projects">
+              <a class ="nav-link" href="#">Projects
+                <img class = "down-arrow" src="images/icons/down_arrow_icon.png" alt="Down_arrow_icon">
+              </a>
         
-        
-    
-    </div>
+            </li>
+            <li class = "nav-item">
+              <a class ="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+      </div>
     </nav>
-  </Header>
 
-  <main>
-    <aside>
-      <div class = "headline">
-        <h1 class="sheldon">Sheldon Aldridge</h1>
-        <h1 class="front-end">Front-End</h1>
-        <h1 class="dev">Developer</h1>
-      </div>
-    </aside>
-    <div class = "projection">
-    </div>
-    <div class = "cover-image">
-      <img src="../images/profile Image.png" alt="Profile picture">
-      <div class = "speech-bubble">
-        <p>You looking for someone, who is dedicated,hard working and loves to learn. You've come to the right place</p>
-      </div>
-    </div>
-
-    <div class = "lang-icons">
-      <ul>
-        <li><img class="html" src="images/icons/html5.png" alt="HTML 5 logo"></li>
-        <li><img class="css" src="images/icons/CSS3.png" alt="CSS3 logo"></li>
-        <li><img class="js" src="images/icons/JS.png" alt="JS logo"></li>
-        <li><img class = "bts" src="images/icons/Bootstrap.png" alt="Bootstrap logo"></li>
+    <div class ="project-list">
+      <ul class="flex-column">
+        <li class="project-item">Calculator App</li>
+        <li class="project-item">Vending Machine App</li>
+        <li class="project-item">Landing Page</li>
       </ul>
     </div>
-
-    <div class = "contact-me">
-      <p>Contact Me</p>
-    </div>
-
-    <div class = "contact-form">
-
-      <button class = "close">X</button>
       
-      <div class = "agumon-victory">
-        <img class = "perform-victory" src="images/sprites/Victory.png" alt="">
-      </div>
-      <form class="form" action="mailto:sheldonaldridge@yahoo.com" method="post" enctype="text/plain">
-        <h1>Email: sheldonaldridge@yahoo.com</h1>
-        <h1>Cell: 079 716 9463</h1>
-        <button class = "submit">Click to send email!</button>
-      </form>
+   
+
+    <div class = "img-fluid">
+      <picture>
+      <source media ="(min-width:1200px)" srcset="images/profile Image.png">
+      <source media ="(min-width:500px)" srcset="images/profile image small.png">
+      <img src="images/profile Image.png" alt="profile image">
+    </picture>
     </div>
-  </main>
+  </header>
 </body>
 </html>
