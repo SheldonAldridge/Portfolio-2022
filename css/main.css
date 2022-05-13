@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+}
+
+:root{
+    --darker-color:#22223B;
+    --grey-color:#4A4E69;
+    --light-color:#9A8C98;
+    --lighter-color:#C9ADA7;
+    --lightest-color:#C9ADA7;
+    --white-color:#FFFFFF;
+}
+
+
+.down-arrow{
+    width:1vw;
+}
+
+.nav{
+    background-color: var(--grey-color)!important;
+}
+
+.navbar-brand, .nav-link{
+    color: var(--white-color)!important;
+}
+
+.nav-link{
+    padding-left: 10rem !important;
+}
+
+.down-arrow{
+    filter: invert(99%) sepia(89%) saturate(0%) hue-rotate(233deg) brightness(108%) contrast(97%);
+}
+
+.img-fluid{
+    width:100vw;
+    height: 80vh;
+    background-color: var(--lightest-color);
+}
+
+.img-fluid img{
+    width:25vw;
+    margin-top: 2.5rem;
+    margin-left: 100rem;
+}
+
+.project-list{
+    position: absolute;
+    background-color: var(--darker-color);
+    margin-left: 47rem;
+    padding-left: 2rem;
+    cursor: pointer;
+    padding-right: 1rem;
+    display: flex;
+    
+}
+
+.project-list ul{
+ list-style-type: none;
+ text-align: justify;
+ margin-left:-1rem;
+ margin-top: 1rem;
+}
+
+.project-item{
+    text-decoration: none;
+    color: var(--white-color);
+    margin-left: -2.3rem;
+}
+
+.project-item:hover{
+    background-color: var(--grey-color);
+    padding-left:20px;
+}
+
