@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
 body{
@@ -36,28 +37,17 @@ body{
     filter: invert(99%) sepia(89%) saturate(0%) hue-rotate(233deg) brightness(108%) contrast(97%);
 }
 
-.img-fluid{
-    width:100vw;
-    height: 80vh;
-    background-color: var(--lightest-color);
-}
-
-.img-fluid img{
-    width:25vw;
-    margin-top: 2.5rem;
-    margin-left: 100rem;
-}
-
 .project-list{
     position: absolute;
     background-color: var(--darker-color);
-    margin-left: 47rem;
+    margin-left: 64rem;
     padding-left: 2rem;
     cursor: pointer;
     padding-right: 1rem;
     display: flex;
-    
+    display: none;
 }
+
 
 .project-list ul{
  list-style-type: none;
@@ -70,6 +60,7 @@ body{
     text-decoration: none;
     color: var(--white-color);
     margin-left: -2.3rem;
+    
 }
 
 .project-item:hover{
@@ -77,3 +68,28 @@ body{
     padding-left:20px;
 }
 
+.img-fluid{
+    width:100vw;
+    height: 80vh;
+    background-color: var(--lightest-color);
+}
+
+.img-fluid img{
+    width:25vw;
+    margin-top: 2.5rem;
+    margin-left: 100rem;
+}
+
+.Heading{
+    position: absolute;
+    margin:18rem;
+    
+    font-weight: bold;
+    color:var(--darker-color);
+}
+
+.h1, .h2, .h3{
+    font-size:80px;
+    font-family: Oleo Script Swash Caps;
+    margin-left: 10rem;
+}
