@@ -83,7 +83,6 @@ body{
 .Heading{
     position: absolute;
     margin:18rem;
-    
     font-weight: bold;
     color:var(--darker-color);
 }
@@ -92,4 +91,38 @@ body{
     font-size:80px;
     font-family: Oleo Script Swash Caps;
     margin-left: 10rem;
+}
+
+.about-me-container{
+    margin-left:35rem;
+}
+
+.head-shot img{
+ width:10vw;
+ margin-top:15rem;
+}
+
+.aboutMe{
+position: absolute;
+margin-left:40rem;
+margin-top:5rem;
+font-family: Oleo Script Swash Caps;
+color:var(--darker-color);
+border-bottom: 5px solid var(--darker-color);
+}
+
+.aboutMe-par{
+    margin-left:22rem;
+    margin-top:-20rem;
+    width:50rem;
+    text-align: justify;
+}
+
+.eHL{
+    position: absolute;
+    margin-left:75rem;
+    margin-top:5rem;
+    font-family: Oleo Script Swash Caps;
+    color:var(--darker-color);
+    border-bottom: 5px solid var(--darker-color);
 }
