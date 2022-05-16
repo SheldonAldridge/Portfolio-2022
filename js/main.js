@@ -1,15 +1,18 @@
 let projects = document.querySelector(".projects");
 let projectList = document.querySelector(".project-list")
-let clickOff = document.querySelector(".img-fluid")
+let clickOffImage = document.querySelector(".img-fluid")
+let clickOffnav = document.querySelector(".navbar")
 
-projects.addEventListener('click', function handleMouseOver(){
+projects.addEventListener('click', function handleClickOn(){
     if(projects){
         projectList.style.display = "block";
     }
 })
 
-clickOff.addEventListener('click', function handleClickOff(){
-    if(clickOff){
+clickOffImage.addEventListener('click', function handleClickOff(){
+    if(clickOffImage){
         projectList.style.display = "none"
     }
 })
+
+
