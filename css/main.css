@@ -16,7 +16,6 @@ body{
     --white-color:#FFFFFF;
 }
 
-
 .down-arrow{
     width:1vw;
 }
@@ -89,7 +88,7 @@ body{
 
 .h1, .h2, .h3{
     font-size:80px;
-    font-family: Oleo Script Swash Caps;
+    font-family: Oleo Script Swash Caps,sans-serif;
     margin-left: 10rem;
 }
 
@@ -125,4 +124,75 @@ border-bottom: 5px solid var(--darker-color);
     font-family: Oleo Script Swash Caps;
     color:var(--darker-color);
     border-bottom: 5px solid var(--darker-color);
+}
+
+.work-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left:55rem;
+    margin-top:15rem;
+}
+
+.changing-workplace,.get-staffed-up{
+    margin-left:10rem;
+}
+
+.changing-workplace,.get-staffed-up,.furnspace{
+    background-color: var(--darker-color);
+    color: var(--white-color);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.changing-workplace p,.get-staffed-up p,.furnspace p{
+    margin-top:4rem;
+}
+
+.card-text{
+    width:30rem;
+    height:12rem;
+    margin-top:3rem;
+}
+
+.card{
+    width:32rem;
+    background-color: var(--grey-color);
+    color: var(--white-color);
+    margin-left: 64rem;
+    margin-top:-15rem;
+}
+
+.close{
+    position: absolute;
+    margin-left: 29rem; 
+    cursor: pointer;
+}
+
+.text-muted{
+    color: var(--white-color)!important;
+}
+
+.furnspace-card{
+    display: none;
+}
+
+.changing-card{
+    position: absolute;
+    width:35rem;
+    height:22rem;
+    margin-top: -21rem;
+    display: none !important;
+}
+
+.changing-card-close{
+    margin-left:32rem
+}
+
+.text-muted{
+    text-decoration: underline;
+    font-size:18px;
 }
