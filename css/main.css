@@ -185,7 +185,6 @@ border-bottom: 5px solid var(--darker-color);
     width:35rem;
     height:22rem;
     margin-top: -21rem;
-    display: none !important;
 }
 
 .changing-card-close{
