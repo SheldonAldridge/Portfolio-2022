@@ -25,9 +25,9 @@ closeCard.addEventListener('click', function close(){
         card.style.display ="none";
     }
 })
+
 //variables for furnspace card and close
 let furnspace = document.querySelector(".furnspace");
-
 let furnCard = document.querySelector(".furnspace-card");
 
 //event listener to show furnspace card
@@ -36,15 +36,3 @@ furnspace.addEventListener('click', function openFCard(){
         furnCard.style.display ="block";
     }
 })
-
-let changingWorkplace = document.querySelector(".changing-workplace");
-let worpkplaceCard = document.querySelector(".changing-card")
-let closecard = document.querySelector(".close")
-
-changingWorkplace.addEventListener('click', function wCard(){
-    if(changingWorkplace){
-        worpkplaceCard.style.display = "block";
-    }
-})
-
-
