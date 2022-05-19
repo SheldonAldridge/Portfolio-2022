@@ -36,3 +36,54 @@ furnspace.addEventListener('click', function openFCard(){
         furnCard.style.display ="block";
     }
 })
+
+//variables for card and close
+let changingWCard = document.querySelector(".changing-card")
+let changingclose = document.querySelector(".changing-card-close")
+
+
+//event listener to close card
+changingclose.addEventListener('click', function cWClose(){
+    if(changingclose){
+        changingWCard.style.display ="none";
+    }
+})
+
+let cafmCard =  document.querySelector(".cafm-card")
+let cafmCardClose =  document.querySelector(".cafm-card-close")
+
+cafmCardClose.addEventListener('click', function cafmClose(){
+    if(changingclose){
+        cafmCard.style.display ="none";
+    }
+})
+
+let changing = document.querySelector(".changing-workplace");
+let changingCard = document.querySelector(".changing-card");
+let cafm = document.querySelector(".cafm-card")
+
+changing.addEventListener('click', function openCCard(){
+    if(changing){
+        changingCard.style.display ="block";
+        cafm.style.display ="block";
+    }
+})
+
+let staffedCard =  document.querySelector(".get-staffed-up-card")
+let staffedClose =  document.querySelector(".get-staffed-up-close")
+
+staffedClose.addEventListener('click', function staffClose(){
+    if(staffedClose){
+        staffedCard.style.display ="none";
+    }
+})
+
+let staffedUp = document.querySelector(".get-staffed-up");
+let staffCard = document.querySelector(".get-staffed-up-card");
+
+
+staffedUp.addEventListener('click', function openCCard(){
+    if(staffedUp){
+        staffCard.style.display ="block";
+    }
+})
