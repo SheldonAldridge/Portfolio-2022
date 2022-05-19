@@ -163,8 +163,8 @@ border-bottom: 5px solid var(--darker-color);
     width:32rem;
     background-color: var(--grey-color);
     color: var(--white-color);
-    margin-left: 64rem;
-    margin-top:-15rem;
+    margin-left: 40rem;
+    margin-top:30rem;
 }
 
 .close{
@@ -182,15 +182,38 @@ border-bottom: 5px solid var(--darker-color);
 }
 
 .changing-card{
+    display: flex;
+    flex-direction: row;
     position: absolute;
     width:35rem;
     height:22rem;
-    margin-top: -21rem;
+    margin-top: 30rem;
+    margin-left: 50rem;
     display: none;
 }
 
+.get-staffed-up-card{
+    height:30rem;
+}
+
 .changing-card-close{
-    margin-left:32rem
+    position: absolute;
+    margin-left:32rem;
+    cursor: pointer;
+}
+
+.get-staffed-up-close{
+    position: absolute;
+    margin-left:29rem;
+    cursor: pointer;
+}
+
+.cafm-card{
+   margin-left: 86rem; 
+}
+
+.get-staffed-up-card{
+    margin-left:90rem;
 }
 
 .text-muted{
