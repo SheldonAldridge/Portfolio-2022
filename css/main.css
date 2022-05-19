@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 body{
     box-sizing: border-box;
@@ -88,7 +89,7 @@ body{
 
 .h1, .h2, .h3{
     font-size:80px;
-    font-family: Oleo Script Swash Caps,sans-serif;
+    font-family: Cinzel,sans-serif;
     margin-left: 10rem;
 }
 
@@ -185,6 +186,7 @@ border-bottom: 5px solid var(--darker-color);
     width:35rem;
     height:22rem;
     margin-top: -21rem;
+    display: none;
 }
 
 .changing-card-close{
