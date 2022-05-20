@@ -40,7 +40,7 @@ body{
 .project-list{
     position: absolute;
     background-color: var(--darker-color);
-    margin-left: 64rem;
+    margin-left: 80rem;
     padding-left: 2rem;
     cursor: pointer;
     padding-right: 1rem;
@@ -177,7 +177,7 @@ border-bottom: 5px solid var(--darker-color);
     color: var(--white-color)!important;
 }
 
-.furnspace-card{
+.furnspace-card,.get-staffed-up-card{
     display: none;
 }
 
@@ -219,4 +219,27 @@ border-bottom: 5px solid var(--darker-color);
 .text-muted{
     text-decoration: underline;
     font-size:18px;
+}
+
+.download-resume{
+    position: absolute;
+    margin: 30rem 75rem;
+    width:13rem;
+     
+}
+
+a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.download-resume :active{
+    background-color: var(--lightest-color);
+}
+
+button{
+    border:none;
+    background-color: var(--darker-color);
+    padding: 0.7rem;
+    border-radius: 2rem;
 }
