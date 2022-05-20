@@ -243,3 +243,18 @@ button{
     padding: 0.7rem;
     border-radius: 2rem;
 }
+
+.education{
+    margin-top:38rem
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.edu-card{
+    margin-left:5rem;
+    padding-top: -2rem;
+}
