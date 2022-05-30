@@ -29,11 +29,12 @@ closeCard.addEventListener('click', function close(){
 //variables for furnspace card and close
 let furnspace = document.querySelector(".furnspace");
 let furnCard = document.querySelector(".furnspace-card");
-
+let education = document.querySelector(".eHL");
 //event listener to show furnspace card
 furnspace.addEventListener('click', function openFCard(){
     if(furnspace){
         furnCard.style.display ="block";
+        education.style.paddingTop = "-50rem";
     }
 })
 
