@@ -1,5 +1,6 @@
 @media (min-width: 576px) {
 
+
 .Heading{
     margin:4em 
 }
@@ -76,6 +77,64 @@ button{
     padding: 0.2em;
 }
 
+.close,.changing-card-close,.get-staffed-up-close{
+    margin-left: 18em;
+    margin-top: 0em;
+}
 
+.furnspace-card,.changing-card,.get-staffed-up-card{
+margin-top: 0em;
+margin-left:3em;
+width:20em;
+height:17em;
+}
 
+.cafm-card{
+    margin-top: 18em;
+}
+
+.card-title{
+    margin-top: 0.3em;
+    font-size: 0.8em;
+}
+.text-muted{
+    font-size: 0.7em;
+}
+
+.card-text{
+    overflow: scroll;
+    font-size: 0.8em;
+    width:23em;
+}
+
+.education{
+    border-bottom: 5px solid var(--darker-color);
+    z-index: -1;
+}
+
+.education h1{
+    font-size: 1em;
+    margin-top: -14.7em;
+    margin-left: -33em;
+    
+}
+
+.education-contain{
+    margin-left: -84em;
+    margin-top: -15.7em;
+    display: block;
+}
+
+.codespace-card,.ux-card,.shaw-card{
+width:20em;
+height:17em;
+}
+
+.ux-card,.shaw-card{
+margin-top: 1em;
+}
+
+.codespace-link{
+    font-size: 0.8em;
+}
 }
