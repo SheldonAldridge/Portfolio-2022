@@ -22,7 +22,7 @@
 @media (min-width: 992px){
 
 .navbar-nav{
-  margin-left: 3em;
+  margin-left: 10em;
 }
 
 .nav-item{
@@ -31,11 +31,12 @@
 }
 
 .nav-link{
-    width: 14em;
+    width: 100%;
+    margin-left: 1em;
 }
 
-.gitHub{
-    margin-left: 0em;
+.gitHub img{
+    margin-left: 4em;
 }
 
 .gitHub img,.linkedIn img{
@@ -50,17 +51,29 @@
   margin: 1em;
   font-size: 40px;
 }
+
+ .hero{
+        width:100%
+    }
 }
 
 @media (min-width: 1200px){
+
+.navbar-nav{
+  margin-left: 10em;
+}
 
 .nav-item{
     margin-top: 0em;
     max-width: 14em;
 }
 
-.gitHub {
-    margin-left: 10em;
+.gitHub img {
+    margin-left: 20em;
+}
+
+.linkedIn img{
+    margin-left: 17em;
 }
 
 .gitHub img,.linkedIn img{
@@ -72,22 +85,24 @@
   font-size: 50px;
 }
 
-    .hero{
-        width:100%
-    }
+.hero{
+    width:100%
+}
 }
 
 @media (min-width: 1400px){
     .nav-item{
-    margin-left: 0.5em;
+    margin-left: -2em;
+}
+.nav-link{
+    width: 13em;
+}
+.gitHub img {
+    margin-left: 10em;
 }
 
-.gitHub {
+.linkedIn img{
     margin-left: 3em;
-}
-
-.linkedIn{
-    margin-left: -8em;
 }
 
 .gitHub img,.linkedIn img{
@@ -96,4 +111,7 @@
     height: 2em;
 }
 
+.h1,.h2,.h3{
+  font-size: 75px;  
+}
 }
