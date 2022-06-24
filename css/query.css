@@ -44,7 +44,35 @@ h1{
   margin-left: 10%;
 }
 
+.experience-container{
+  margin-left: 9em;
+  width:60%;
+}
 
+.furnspace,.changing-workplace,.get-staffed-up{
+ width: 7rem;
+ height: 7rem;
+}
+
+.furnspace p,.get-staffed-up p{
+  font-size:15px;
+  padding-top: 3rem;
+}
+
+.changing-workplace p{
+padding-top: 2.5rem;
+}
+
+.download-resume{
+margin-left: -4rem;
+width:20rem;
+}
+
+.download-resume a{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+}
 }
 
 @media (min-width: 992px){
