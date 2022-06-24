@@ -8,7 +8,7 @@
     font-size: 20px;
 }
 
-.h1,.h2,.h3{
+h1{
     font-size: 25px;
 }
 
@@ -17,12 +17,40 @@
     width: 3em;
     height: 3em;
 }
+
+.slides{
+    margin-left:7em;
+}
+
+.slides img{
+ width: 30vw;
+ height: 30vw;
+ margin-left:4em;
+}
+
+.text-container{
+    margin-left:-7em;
+}
+
+.aboutMe{
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 10em;
+}
+
+.aboutMe-par p{
+  font-size: 15px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
 }
 
 @media (min-width: 992px){
 
 .navbar-nav{
-  margin-left: 10em;
+  margin-left: 0em;
 }
 
 .nav-item{
@@ -36,7 +64,7 @@
 }
 
 .gitHub img{
-    margin-left: 4em;
+    margin-left: 14em;
 }
 
 .gitHub img,.linkedIn img{
@@ -44,10 +72,10 @@
     height: 2em;
 }
 .linkedIn img{
-    margin-left: 9em;
+    margin-left: 11em;
 }
 
-.h1,.h2,.h3 {
+h1 {
   margin: 1em;
   font-size: 40px;
 }
@@ -55,12 +83,40 @@
  .hero{
         width:100%
     }
+
+.slides img{
+ width: 30vw;
+ height: 30vw;
+ margin-left:10em;
+}
+
+.text-container{
+    margin-left:-7em;
+}
+
+.aboutMe{
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 17em;
+}
+
+.aboutMe h1{
+  font-size:30px;
+  width:30%;
+}
+
+.aboutMe-par p{
+  font-size: 20px;
+  width: 60%;
+  margin-left: 8em;
+}
+
 }
 
 @media (min-width: 1200px){
 
 .navbar-nav{
-  margin-left: 10em;
+  margin-left: 0em;
 }
 
 .nav-item{
@@ -69,18 +125,18 @@
 }
 
 .gitHub img {
-    margin-left: 20em;
+    margin-left: 24em;
 }
 
 .linkedIn img{
-    margin-left: 17em;
+    margin-left: 21em;
 }
 
 .gitHub img,.linkedIn img{
     margin-top: 0.1em;
 }
 
-.h1,.h2,.h3 {
+h1 {
   margin: 1.5em;
   font-size: 50px;
 }
@@ -88,21 +144,48 @@
 .hero{
     width:100%
 }
+
+.slides img{
+ width: 30vw;
+ height: 30vw;
+ margin-left:15em;
+}
+
+.text-container{
+    margin-left:-7em;
+}
+
+.aboutMe h1{
+  font-size:40px;
+  width:30%;
+  margin-left:3em;
+}
+
+.aboutMe-par p{
+  font-size: 20px;
+  width: 50%;
+  margin-left: 13em;
+}
 }
 
 @media (min-width: 1400px){
-    .nav-item{
+.nav-item{
     margin-left: -2em;
 }
 .nav-link{
     width: 13em;
 }
+
+.hero{
+    height:90vh;
+}
+
 .gitHub img {
-    margin-left: 10em;
+    margin-left: 19em;
 }
 
 .linkedIn img{
-    margin-left: 3em;
+    margin-left: 10em;
 }
 
 .gitHub img,.linkedIn img{
@@ -111,7 +194,30 @@
     height: 2em;
 }
 
-.h1,.h2,.h3{
+h1{
   font-size: 75px;  
 }
+
+.slides img{
+ width: 20vw;
+ height: 20vw;
+ margin-left:30em;
+}
+
+.text-container{
+    margin-left:-7em;
+}
+
+.aboutMe h1{
+  font-size:45px;
+  width:20%;
+  margin-left:10em;
+}
+
+.aboutMe-par p{
+  font-size: 20px;
+  width: 50%;
+  margin-left: 25em;
+}
+
 }
