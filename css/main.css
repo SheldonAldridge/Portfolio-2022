@@ -27,6 +27,10 @@ body {
   color: var(--white-color) !important;
 }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+ background-color: transparent;
+}
+
 .nav-link {
   padding-left: 10rem !important;
 }
@@ -99,7 +103,7 @@ body {
   color: var(--darker-color);
 }
 
-.h1,.h2,.h3 {
+h1 {
   font-size: 12px;
   font-family: Cinzel, sans-serif;
 }
@@ -110,15 +114,23 @@ body {
 
 .skillset-slide{
   position: relative;
+  padding:0
 }
 
 .slides{
   display: none;
 }
 
+.caption{
+  text-align: center;
+  background-color: var(--darker-color);
+  color:white
+}
+
 .slides img{
- width: 10vw;
- height: 10vw;
+ width: 25vw;
+ height: 25vw;
+ margin-left:8rem
 }
 
 .prev, .next {
@@ -128,12 +140,13 @@ body {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: var(--darker-color);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  text-decoration: none;
 }
 
 .next {
@@ -145,14 +158,17 @@ body {
   background-color: rgba(0,0,0,0.8);
 }
 
+.text-container{
+  background-color: var(--darker-color);
+}
+
 .text {
-  color: #f2f2f2;
+  color: white;
   font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+  
 }
 
 .active, .dot:hover {
@@ -173,3 +189,57 @@ body {
     opacity: 1;
 }
 
+.aboutMe{
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+.aboutMe h1{
+  font-size:20px;
+  color: var(--grey-color);
+  font-weight: bolder;
+  border-bottom: 1px solid var(--grey-color);
+  width:50%;
+}
+
+.aboutMe-par{
+  margin-left:1rem;
+  margin-top: 1rem;
+}
+
+.aboutMe-par p{
+  font-size: 10px;
+  width:18rem;
+  text-align: justify;
+}
+
+.experience-container{
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 6rem;
+}
+
+.experience-container h1{
+  font-size:20px;
+  color: var(--grey-color);
+  font-weight: bolder;
+  border-bottom: 1px solid var(--grey-color);
+  width:40%;
+}
+
+.work-container{
+  margin-left: -14rem;
+  margin-top: 2rem;
+}
+
+.furnspace{
+ background-color: var(--darker-color);
+ width: 10rem;
+  margin-left: 13rem;
+}
+
+.furnspace p{
+  
+  color:var(--white-color);
+}
