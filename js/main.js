@@ -2,7 +2,7 @@ let projects = document.querySelector(".projects");
 let projectList = document.querySelector(".project-list")
 let clickOffImage = document.querySelector(".img-fluid")
 let clickOffnav = document.querySelector(".navbar")
-
+/*
 projects.addEventListener('click', function handleClickOn(){
     if(projects){
         projectList.style.display = "block";
@@ -14,7 +14,7 @@ clickOffImage.addEventListener('click', function handleClickOff(){
         projectList.style.display = "none"
     }
 })
-
+*/
 //variables for card and close
 let card = document.querySelector(".card")
 let closeCard = document.querySelector(".close")
@@ -53,11 +53,11 @@ changingclose.addEventListener('click', function cWClose(){
 let cafmCard =  document.querySelector(".cafm-card")
 let cafmCardClose =  document.querySelector(".cafm-card-close")
 
-cafmCardClose.addEventListener('click', function cafmClose(){
-    if(changingclose){
-        cafmCard.style.display ="none";
-    }
-})
+cafmCardClose.addEventListener("click", function cafmClose() {
+  if (changingclose) {
+    cafmCard.style.display = "none";
+  }
+});
 
 let changing = document.querySelector(".changing-workplace");
 let changingCard = document.querySelector(".changing-card");
