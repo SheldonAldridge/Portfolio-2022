@@ -49,9 +49,14 @@ h1{
   width:60%;
 }
 
+.work-container{
+  margin-right: 9rem;
+}
+
 .furnspace,.changing-workplace,.get-staffed-up{
  width: 7rem;
  height: 7rem;
+ cursor: pointer;
 }
 
 .furnspace p,.get-staffed-up p{
@@ -64,7 +69,7 @@ padding-top: 2.5rem;
 }
 
 .download-resume{
-margin-left: -4rem;
+margin-left: -4.5rem;
 width:20rem;
 }
 
@@ -72,6 +77,7 @@ width:20rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 1rem;
+  font-size: 20px;
 }
 }
 
@@ -139,6 +145,49 @@ h1 {
   margin-left: 8em;
 }
 
+.experience-container{
+  margin-left: 17em;
+  
+}
+
+.experience-container h1{
+  font-size: 30px;
+  width: 33%;
+}
+
+.work-container{
+  margin-left: -10em;
+  display: flex;
+
+}
+
+.furnspace,.changing-workplace,.get-staffed-up{
+ width: 7rem;
+ height: 7rem;
+ cursor: pointer;
+}
+
+.furnspace p,.get-staffed-up p{
+  font-size:15px;
+  padding-top: 3rem;
+}
+
+.changing-workplace p{
+padding-top: 2.5rem;
+}
+
+.download-resume{
+margin-left: -3em;
+width:20rem;
+margin-top: 2em;
+}
+
+.download-resume a{
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 1em;
+  font-size: 20px;
+}
 }
 
 @media (min-width: 1200px){
