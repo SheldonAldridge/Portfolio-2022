@@ -307,14 +307,13 @@ margin-top: 1rem;
   font-size: 15px;
   color:var(--white-color);
   font-size:12px;
-  
+  text-align: justify;
 }
 
 .education-container{
   text-align: center;
   margin-top: 1rem;
-  margin-left: 5.5rem;
-  width: 70%;
+  width: 100%;
 }
 
 .education-container h1{
@@ -323,4 +322,28 @@ margin-top: 1rem;
   font-weight: bolder;
   border-bottom: 1px solid var(--grey-color);
   width: 55%;
+}
+
+.codespace-card,.ux-card,.shaw-card{
+  display: block;
+  margin-left: -3rem;
+  margin-top: 1rem;
+}
+
+.codespace-card a,.ux-card a,.shaw-card a{
+font-size: 12px;
+}
+
+.card-link{
+  display: block;
+  text-decoration: none;
+  color:var(--lightest-color)
+}
+
+.github-link{
+  margin-left:-1.3rem !important;
+}
+
+.shaw-card{
+  height:18vh;
 }
