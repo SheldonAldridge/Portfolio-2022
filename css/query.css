@@ -243,6 +243,18 @@ h1 {
   width: 50%;
   margin-left: 13em;
 }
+
+.experience-container{
+  margin-left: 20em;
+}
+
+.experience-container h1{
+  font-size: 40px;
+}
+
+.download-resume{
+  margin-left: 0em;
+}
 }
 
 @media (min-width: 1400px){
@@ -297,4 +309,25 @@ h1{
   margin-left: 25em;
 }
 
+.experience-container{
+  margin-left: 37em;
+  width: 50%;
+}
+
+.experience-container h1{
+  font-size: 40px;
+  margin-left: 1em;
+}
+
+.work-container{
+  margin-left: -15em;
+}
+
+.download-resume{
+  margin-left: -1em;
+}
+
+.download-resume{
+  margin-left: 2em;
+}
 }
