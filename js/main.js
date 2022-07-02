@@ -34,7 +34,7 @@ let education = document.querySelector(".eHL");
 furnspace.addEventListener('click', function openFCard(){
     if(furnspace){
         furnCard.style.display ="block";
-        education.style.paddingTop = "-50rem";
+        //education.style.paddingTop = "-50rem";
     }
 })
 
