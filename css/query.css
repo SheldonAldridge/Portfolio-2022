@@ -98,12 +98,34 @@ width:20rem;
 .cafm-card{
 margin-top: 1rem;
 }
-.education-container{
-  margin-left: 9.5rem;
-}
 
 .education-container h1{
   width: 55%;
+  margin-left:4rem;
+}
+
+.codespace-card,.ux-card,.shaw-card{
+  display: block;
+  margin-left: 0rem;
+  margin-top: 1rem;
+}
+
+.codespace-card a,.ux-card a,.shaw-card a{
+font-size: 12px;
+}
+
+.card-link{
+  display: block;
+  text-decoration: none;
+  color:var(--lightest-color)
+}
+
+.github-link{
+  margin-left:-1.3rem !important;
+}
+
+.shaw-card{
+  height:18vh;
 }
 }
 
@@ -236,14 +258,42 @@ margin-left: 28rem;
 position:absolute;
 }
 
-.education-container{
-  
-  margin-left: 21rem;
+.education-contain{
+  display: flex;
 }
 
 .education-container h1{
   font-size: 30px;
   width: 27%;
+  margin-left: 20rem;
+}
+
+.codespace-card,.ux-card,.shaw-card{
+  margin-left: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-title{
+  margin-top: 0rem;
+}
+
+.codespace-card a,.ux-card a,.shaw-card a{
+font-size: 12px;
+}
+
+.card-link{
+  display: inline;
+  text-decoration: none;
+  color:var(--lightest-color)
+}
+
+.github-link{
+  margin-left:-1.3rem !important;
+}
+
+.shaw-card{
+  height:18vh;
 }
 }
 
@@ -301,8 +351,8 @@ h1 {
   margin-left: 13em;
 }
 
-.experience-container{
-  margin-left: 20em;
+.education-contain{
+  display: flex;
 }
 
 .experience-container h1{
@@ -335,14 +385,33 @@ margin-left: 38rem;
 position:absolute;
 }
 
-.education-container{
-  
-  margin-left: 24rem;
-}
-
 .education-container h1{
   font-size: 40px;
   width: 32%;
+}
+
+.codespace-card,.ux-card,.shaw-card{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.codespace-card a,.ux-card a,.shaw-card a{
+font-size: 12px;
+}
+
+.card-link{
+  display: inline;
+  text-decoration: none;
+  color:var(--lightest-color)
+}
+
+.github-link{
+  margin-left:-1.3rem !important;
+}
+
+.shaw-card{
+  height:18vh;
 }
 }
 
@@ -442,13 +511,17 @@ margin-left: 60rem;
 position:absolute;
 }
 
-.education-container{
-  
-  margin-left: 46rem;
-}
-
 .education-container h1{
   font-size: 40px;
   width: 23%;
+  margin-left:35rem;
 }
+
+.codespace-card,.ux-card,.shaw-card{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width:30vw;
+}
+
 }
