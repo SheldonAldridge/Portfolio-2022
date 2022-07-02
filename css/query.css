@@ -79,6 +79,32 @@ width:20rem;
   border-radius: 1rem;
   font-size: 20px;
 }
+
+.card{
+  width: 20rem;
+  height: 14rem;
+  margin-top: -27rem;
+  margin-left: 7rem;
+}
+
+.close{
+  margin-left:17rem;
+}
+
+.changing-card{
+  margin-top: -27rem;
+}
+
+.cafm-card{
+margin-top: 1rem;
+}
+.education-container{
+  margin-left: 9.5rem;
+}
+
+.education-container h1{
+  width: 55%;
+}
 }
 
 @media (min-width: 992px){
@@ -188,6 +214,37 @@ margin-top: 2em;
   border-radius: 1em;
   font-size: 20px;
 }
+
+.card{
+margin-top: -14rem;
+margin-left: 20rem;
+}
+
+.close{
+  margin-left:17rem;
+}
+
+.changing-card{
+  margin-top: -14rem;
+  margin-left: 7rem;
+  
+}
+
+.cafm-card{
+margin-top: -14rem;
+margin-left: 28rem;
+position:absolute;
+}
+
+.education-container{
+  
+  margin-left: 21rem;
+}
+
+.education-container h1{
+  font-size: 30px;
+  width: 27%;
+}
 }
 
 @media (min-width: 1200px){
@@ -255,6 +312,38 @@ h1 {
 .download-resume{
   margin-left: 0em;
 }
+
+.card{
+  margin-top: -16rem;
+  margin-left: 26rem;
+
+}
+
+.close{
+  margin-left:17rem;
+}
+
+.changing-card{
+  margin-top: -16rem;
+  margin-left: 17rem;
+  
+}
+
+.cafm-card{
+margin-top: -14rem;
+margin-left: 38rem;
+position:absolute;
+}
+
+.education-container{
+  
+  margin-left: 24rem;
+}
+
+.education-container h1{
+  font-size: 40px;
+  width: 32%;
+}
 }
 
 @media (min-width: 1400px){
@@ -270,11 +359,11 @@ h1 {
 }
 
 .gitHub img {
-    margin-left: 19em;
+    margin-left: 12em;
 }
 
 .linkedIn img{
-    margin-left: 10em;
+    margin-left: 3em;
 }
 
 .gitHub img,.linkedIn img{
@@ -329,5 +418,37 @@ h1{
 
 .download-resume{
   margin-left: 2em;
+}
+
+.card{
+  margin-top: -16rem;
+  margin-left: 48rem;
+
+}
+
+.close{
+  margin-left:17rem;
+}
+
+.changing-card{
+  margin-top: -16rem;
+  margin-left: 39rem;
+  
+}
+
+.cafm-card{
+margin-top: -14rem;
+margin-left: 60rem;
+position:absolute;
+}
+
+.education-container{
+  
+  margin-left: 46rem;
+}
+
+.education-container h1{
+  font-size: 40px;
+  width: 23%;
 }
 }
