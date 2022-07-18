@@ -1,0 +1,51 @@
+body{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+:root{
+    --darkBlue--color:#10007B;
+    --darkPurple--color:#35003E;
+    --darkmaroon--color:#48001F;
+    --maroon--color:#5A0000;
+    --light--color:#FFFFFF;
+}
+
+.navbar{
+    background-color: var(--darkBlue--color) !important;
+}
+
+.navbar-brand,.nav-link{
+color: var(--light--color) !important;
+}
+
+.navbar-light .navbar-toggler-icon{
+    filter: invert(94%) sepia(6%) saturate(22%) hue-rotate(203deg) brightness(106%) contrast(105%);
+}
+
+.banner-container{
+    height: 30vh;
+    background-color: var(--darkmaroon--color) !important;
+}
+.hero-image img{
+    width:85vw !important;
+    float: right;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding:151px 15px;
+}
+
+#contact-me,#projects{
+font-size: 15px;
+width: 30vw;
+border: none;
+background-color: var(--darkBlue--color);
+color:var(--light--color);
+}
+
+#projects{
+    margin-top: 10px;
+}
